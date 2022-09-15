@@ -1,0 +1,25 @@
+@import url("../vendor/normalize.css");
+@import url("../vendor/fonts/Rubik-Bold.ttf");
+@import url("../vendor/fonts/Rubik-Regular.ttf");
+
+/*--------------------------------------BLOKS--------------------------------------------------------*/
+@import url("../blocks/root/root.css");
+@import url("../blocks/wraper/wraper.css");
+@import url("../blocks/logo/logo.css");
+/*--------------------------------------HEADER--------------------------------------------------------*/
+@import url("../blocks/header/header.css");
+@import url("../blocks/header/__basket/header__basket.css");
+@import url("../blocks/header/__counter/header__counter.css");
+@import url("../blocks/header/__logo/header__logo.css");
+@import url("../blocks/header/__navigation/header__navigation.css");
+@import url("../blocks/header/__navigation_lists/header__navigation_lists.css");
+/*--------------------------------------CONTENT------------------------------------------------------*/
+@import url("../blocks/content/content.css");
+/*--------------------------------------DESCRIPTION------------------------------------------------------*/
+@import url("../blocks/description/__about/description__about.css");
+@import url("../blocks/description/__background/description__background.css");
+@import url("../blocks/description/__nootris/description__nootris.css");
+@import url("../blocks/description/__subtitle/description__subtitle.css");
+@import url("../blocks/description/__text/description__text.css");
+@import url("../blocks/description/__title/description__title.css");
+@import url("../blocks/description/description.css");

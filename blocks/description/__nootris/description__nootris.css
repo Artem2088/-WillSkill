@@ -1,0 +1,9 @@
+.description__nootris {
+  position: absolute;
+  width: 816px;
+  height: 984px;
+  left: 624px;
+  top: 0px;
+  z-index: -1;
+  mix-blend-mode: multiply;
+}

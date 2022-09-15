@@ -1,0 +1,11 @@
+.description__text {
+  max-width: 416px;
+  min-height: 24px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 43px;
+  color: rgba(0, 0, 0, 1);
+  padding: 120px 0 16px 0;
+  margin: 0;
+}

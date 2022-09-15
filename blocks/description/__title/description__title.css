@@ -1,0 +1,11 @@
+.description__title {
+  margin: 0;
+  max-width: 1008px;
+  min-height: 320px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 144px;
+  line-height: 152px;
+  /* or 106% */
+  color: rgba(255, 255, 255, 1);
+}
