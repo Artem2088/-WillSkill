@@ -1,0 +1,9 @@
+.discount__ginger {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 890px) {
+  .discount__ginger {
+    align-items: center;
+  }
+}

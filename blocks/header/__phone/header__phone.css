@@ -1,0 +1,11 @@
+.header__phone {
+  display: flex;
+  flex-direction: row;
+  padding: 0 76px 0 40px;
+  margin: 0;
+}
+@media screen and (max-width: 1024px) {
+  .header__phone {
+    padding: 0 10px 0 10px;
+  }
+}

@@ -1,0 +1,18 @@
+.description__group-nootris {
+  position: absolute;
+  width: 48%;
+  transform: rotate(90deg);
+  object-fit: cover;
+  left: 57%;
+  top: 35%;
+}
+@media screen and (max-width: 1130px) {
+  .description__group-nootris {
+    top: 55%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .description__group-nootris {
+    top: 80%;
+  }
+}

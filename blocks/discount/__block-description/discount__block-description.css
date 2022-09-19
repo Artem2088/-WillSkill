@@ -1,0 +1,22 @@
+.discount__block-description {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-content: center;
+  column-gap: 111px;
+  padding: 59px 0 64px;
+  margin: 0;
+  align-items: flex-start;
+}
+@media screen and (max-width: 1130px) {
+  .discount__block-description {
+    column-gap: 0;
+  }
+}
+@media screen and (max-width: 890px) {
+  .discount__block-description {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    row-gap: 20px;
+  }
+}

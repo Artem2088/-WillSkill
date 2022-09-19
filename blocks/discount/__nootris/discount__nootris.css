@@ -1,0 +1,5 @@
+.discount__nootris {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

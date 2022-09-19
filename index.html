@@ -7,17 +7,26 @@
     <link rel="stylesheet" href="pages/index.css" />
     <title>Nootris</title>
   </head>
+
   <body class="root">
     <div class="wraper">
       <header class="header">
-        <img src="images/image/Vector.svg" alt="Logo" class="header__logo logo" />
+        <img
+          src="images/image/Vector.svg"
+          alt="Logo"
+          class="header__logo logo"
+        />
+        <input type="checkbox" id="burger" class="header__checkbox" />
+        <label for="burger" class="header__label">☰</label>
         <ul class="header__navigation">
           <li><a href="#" class="header__navigation_lists">FAQ</a></li>
           <li>
             <a href="#" class="header__navigation_lists">Оплата и доставка</a>
           </li>
           <li><a href="#" class="header__navigation_lists">Возврат </a></li>
-          <li><a href="#" class="header__navigation_lists">Исследования</a></li>
+          <li>
+            <a href="#" class="header__navigation_lists">Исследования</a>
+          </li>
           <li>
             <a href="#" class="header__navigation_lists">Личный кабинет</a>
           </li>
@@ -25,27 +34,93 @@
             <a href="#" class="header__navigation_lists">8 8 (800) 600-09-90</a>
           </li>
         </ul>
-        <img
-          src="images/icon/Vector.svg"
-          alt="Корзина"
-          class="header__basket"
-        />
-        <img
-          src="images/icon/Ellipse 3.svg"
-          alt="counter"
-          class="header__counter"
-        />
+        <div class="header__basket-block">
+          <a href="#"
+            ><img
+              src="images/icon/Vector.svg"
+              alt="Корзина"
+              class="header__basket"
+          /></a>
+          <img
+            src="images/icon/Ellipse 3.svg"
+            alt="counter"
+            class="header__counter"
+          />
+          <span class="header__counter-span">1</span>
+        </div>
       </header>
       <main class="content">
         <section class="description">
-          <img src="images/image/bg.svg" alt="background-yellow" class="description__background" />
           <h1 class="description__title">АКТИВИРУЙ ИММУНИТЕТ!</h1>
-          <img src="images/image/Mask Group.jpg" alt="Нутрис" class="description__nootris">
-          <p class="description__subtitle">Всего пять секунд в день помогут укрепить иммунитет 
-            и повысить защитные силы организма</p>
+          <div class="description__group">
+            <img
+              src="images/image/ginger.png"
+              alt=""
+              class="description__group-ginger"
+            />
+            <img
+              src="images/image/Lemon.png"
+              alt=""
+              class="description__group-lemon"
+            />
+            <img
+              src="images/image/nootris.png"
+              alt=""
+              class="description__group-nootris"
+            />
+          </div>
+          <p class="description__subtitle">
+            Всего пять секунд в день помогут укрепить иммунитет и повысить
+            защитные силы организма
+          </p>
           <p class="description__text">NOOTRIS ПОМОГАЕТ</p>
-          <p class="description__about">Вашему организму во время пандемии 
-            и сезонных простуд</p>
+          <p class="description__about">
+            Вашему организму во время пандемии и сезонных простуд
+          </p>
+        </section>
+        <section class="discount">
+          <div class="discount__about">
+            <p class="discount__title">ПОЛУЧИ ЗАЩИТУ ИММУНИТЕТА</p>
+            <p class="discount__text">СО СКИДКОЙ -15% ПЕРВЫМ!</p>
+          </div>
+          <div class="discount__block-price">
+            <del class="discount__block-price_first">750₽</del>
+            <div class="discount__block-price_second">690₽</div>
+          </div>
+          <article class="discount__block-description">
+            <div class="discount__ginger">
+              <img
+                class="discount__ginger-image"
+                src="images/image/ginger.png"
+                alt="корень"
+              />
+              <p class="discount__ginger-about">Содержит</p>
+              <span class="discount__ginger-span">имбирь</span>
+            </div>
+            <div class="discount__nootris">
+              <img
+                class="discount__nootris-image"
+                src="images/image/nootris.png"
+                alt="Нутрис"
+              />
+              <p class="discount__nootris-about">+ Бесплатная доставка</p>
+              <p class="discount__nootris-about_spec">Специальная цена</p>
+            </div>
+            <div class="discount__vorus">
+              <img
+                class="discount__vorus-image"
+                src="images/image/vorus.png"
+                alt="вирус"
+              />
+              <p class="discount__vorus-about">Нейтрализует</p>
+              <span class="discount__vorus-span">вирусы</span>
+            </div>
+          </article>
+          <div class="discount__button-wraper">
+            <button class="discount__button button">
+              <p class="discount__button-text">Оформить заказ!</p>
+            </button>
+          </div>
         </section>
       </main>
     </div>

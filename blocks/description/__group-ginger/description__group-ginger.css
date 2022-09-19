@@ -1,0 +1,17 @@
+.description__group-ginger {
+  position: absolute;
+  width: 34%;
+  left: 60%;
+  top: 35%;
+}
+@media screen and (max-width: 1130px) {
+  .description__group-ginger {
+    top: 51%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .description__group-ginger {
+    top: 80%;
+    left: 65%;
+  }
+}

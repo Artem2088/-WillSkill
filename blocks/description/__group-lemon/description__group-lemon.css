@@ -1,0 +1,19 @@
+.description__group-lemon {
+  width: 35%;
+  position: absolute;
+  z-index: 3;
+  left: 48%;
+  top: 58%;
+  box-sizing: border-box;
+  object-fit: cover;
+}
+@media screen and (max-width: 1130px) {
+  .description__group-lemon {
+    top: 70%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .description__group-lemon {
+    top: 85%;
+  }
+}

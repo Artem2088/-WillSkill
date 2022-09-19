@@ -6,6 +6,7 @@
 @import url("../blocks/root/root.css");
 @import url("../blocks/wraper/wraper.css");
 @import url("../blocks/logo/logo.css");
+@import url("../blocks/button/button.css");
 /*--------------------------------------HEADER--------------------------------------------------------*/
 @import url("../blocks/header/header.css");
 @import url("../blocks/header/__basket/header__basket.css");
@@ -13,6 +14,13 @@
 @import url("../blocks/header/__logo/header__logo.css");
 @import url("../blocks/header/__navigation/header__navigation.css");
 @import url("../blocks/header/__navigation_lists/header__navigation_lists.css");
+@import url("../blocks/header/__basket-block/header__basket-block.css");
+@import url("../blocks/header/__counter-span/header__counter-span.css");
+@import url("../blocks/header/__phone/header__phone.css");
+@import url("../blocks/header/__phone-link/header__phone-link.css");
+@import url("../blocks/header/__checkbox/header__checkbox.css");
+@import url("../blocks/header/__label/header__label.css");
+
 /*--------------------------------------CONTENT------------------------------------------------------*/
 @import url("../blocks/content/content.css");
 /*--------------------------------------DESCRIPTION------------------------------------------------------*/
@@ -23,3 +31,32 @@
 @import url("../blocks/description/__text/description__text.css");
 @import url("../blocks/description/__title/description__title.css");
 @import url("../blocks/description/description.css");
+/*---------------------------------------DISCOUNT-------------------------------------------------------*/
+@import url("../blocks/discount/__block-price/discount__block-price.css");
+@import url("../blocks/discount/__block-price/_first/discount__block-price_first.css");
+@import url("../blocks/discount/__block-price/_second/discount__block-price_second.css");
+@import url("../blocks/discount/__ginger-about/discount__ginger-about.css");
+@import url("../blocks/discount/__ginger-image/discount__ginger-image.css");
+@import url("../blocks/discount/__ginger/discount__ginger.css");
+@import url("../blocks/discount/__nootris-about/discount__nootris-about.css");
+@import url("../blocks/discount/__nootris-about/_spec/discount__nootris-about_spec.css");
+@import url("../blocks/discount/__nootris-image/discount__nootris-image.css");
+@import url("../blocks/discount/__nootris/discount__nootris.css");
+@import url("../blocks/discount/__text/discount__text.css");
+@import url("../blocks/discount/__title/discount__title.css");
+@import url("../blocks/discount/__vorus-about/discount__vorus-about.css");
+@import url("../blocks/discount/__vorus-image/discount__vorus-image.css");
+@import url("../blocks/discount/__vorus/discount__vorus.css");
+@import url("../blocks/discount/discount.css");
+@import url("../blocks/discount/__button/discount__button.css");
+@import url("../blocks/discount/__about/discount__about.css");
+@import url("../blocks/discount/__block-description/discount__block-description.css");
+@import url("../blocks/discount/__button-text/discount__button-text.css");
+@import url("../blocks/discount/__button-wraper/discount__button-wraper.css");
+@import url("../blocks/discount/__ginger-span/discount__ginger-span.css");
+@import url("../blocks/discount/__vorus-span/discount__vorus-span.css");
+@import url("../blocks/description/__group/description__group.css");
+@import url("../blocks/description/__group-ginger/description__group-ginger.css");
+@import url("../blocks/description/__group-lemon/description__group-lemon.css");
+@import url("../blocks/description/__group-nootris/description__group-nootris.css");
+@import url("../blocks/discount/__nootris/discount__nootris.css");

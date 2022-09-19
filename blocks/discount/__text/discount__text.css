@@ -1,0 +1,15 @@
+.discount__text {
+  min-height: 57px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 3.56rem;
+  text-align: center;
+  color: rgba(252, 181, 0, 1);
+  margin: 0;
+}
+@media screen and (max-width: 375px) {
+  .discount__text {
+    font-size: 2.5rem;
+  }
+}

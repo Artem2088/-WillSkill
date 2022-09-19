@@ -1,0 +1,17 @@
+.discount__nootris-about_spec {
+  max-width: 416px;
+  height: 32px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+  text-align: center;
+  color: rgba(252, 181, 0, 1);
+  margin: 0;
+  padding-bottom: 64px;
+}
+@media screen and (max-width: 375px) {
+  .discount__nootris-about_spec {
+    font-size: 1.2rem;
+  }
+}

@@ -1,3 +1,4 @@
 .header__basket {
-    margin-left: 76px;
+  display: block;
+  padding-left: 10px;
 }

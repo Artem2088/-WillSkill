@@ -1,0 +1,17 @@
+.discount__block-price_first {
+  max-width: 112px;
+  height: 40px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.25rem;
+  line-height: 2.69rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: rgba(173, 173, 173, 1);
+}
+@media screen and (max-width: 375px) {
+  .discount__block-price_first {
+    font-size: 2rem;
+  }
+}

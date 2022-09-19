@@ -1,0 +1,11 @@
+.header__phone-link {
+  display: block;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  width: 188px;
+}

@@ -1,11 +1,22 @@
 .description__title {
+  display: block;
+  z-index: 1;
   margin: 0;
   max-width: 1008px;
-  min-height: 320px;
   font-style: normal;
   font-weight: 700;
-  font-size: 144px;
-  line-height: 152px;
-  /* or 106% */
+  font-size: 9rem;
+  line-height: 1.05;
   color: rgba(255, 255, 255, 1);
+}
+@media screen and (max-width: 1130px) {
+  .description__title {
+    font-size: 11vw;
+    line-height: 1;
+  }
+}
+@media screen and (max-width: 830px) {
+  .description__title {
+    text-align: center;
+  }
 }

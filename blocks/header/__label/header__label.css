@@ -1,0 +1,13 @@
+.header__label {
+  display: none;
+  color: rgba(255, 255, 255, 1);
+  width: 30px;
+}
+@media screen and (max-width: 768px) {
+  .header__label {
+    display: block;
+    position: absolute;
+    right: 60px;
+    top: 34px;
+  }
+}

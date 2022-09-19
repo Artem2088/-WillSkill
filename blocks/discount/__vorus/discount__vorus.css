@@ -1,0 +1,9 @@
+.discount__vorus {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 890px) {
+  .discount__vorus {
+    align-items: center;
+  }
+}

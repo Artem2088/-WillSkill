@@ -1,0 +1,9 @@
+.discount__block-price {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 85px 0 59px;
+  gap: 32px;
+  justify-content: center;
+  align-items: center;
+}

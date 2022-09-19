@@ -1,0 +1,16 @@
+.discount__nootris-image {
+  width: 480px;
+  height: 160px;
+}
+@media screen and (max-width: 425px) {
+  .discount__nootris-image {
+    width: 400px;
+    height: 140px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .discount__nootris-image {
+    width: 290px;
+    height: 100px;
+  }
+}
