@@ -1,6 +1,6 @@
 # WillSkill
 
-Выполнение тестового задания на позицию Junior React Frontend Developer
+Выполнение тестового задания на позицию Junior React Frontend Developer. Кроссбраузерная верстка.
 
 Работа выполнена с использованием технологий:
 
